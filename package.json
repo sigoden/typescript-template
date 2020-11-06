@@ -14,8 +14,8 @@
     "test": "tests"
   },
   "scripts": {
-    "lint": "npx eslint .",
-    "test": "npx jest -c jest.config.js",
+    "lint": "eslint .",
+    "test": "jest -c jest.config.js",
     "build": "tsc -p tsconfig.build.json",
     "clean": "rimraf dist",
     "prepublish": "npm run -s clean && npm run -s build"
