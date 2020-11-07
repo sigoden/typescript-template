@@ -4,7 +4,8 @@
     "project": "./tsconfig.json"
   },
   "ignorePatterns": [
-    "dist/"
+    "dist/",
+    "node_modules/"
   ],
   "extends": [
     "plugin:@typescript-eslint/recommended"
