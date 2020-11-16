@@ -14,7 +14,7 @@
     "test": "tests"
   },
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint . --ext js --ext ts",
     "test": "jest -c jest.config.js",
     "build": "tsc -p tsconfig.build.json",
     "clean": "rimraf dist",
