@@ -8,6 +8,9 @@
             "name": "Debug Jest Tests",
             "type": "node",
             "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**/*.js"
+            ],
             "runtimeArgs": [
                 "--inspect-brk",
                 "${workspaceRoot}/node_modules/.bin/jest",
