@@ -18,7 +18,7 @@
     "test": "jest -c jest.config.js",
     "build": "tsc -p tsconfig.build.json",
     "clean": "rimraf dist",
-    "prepublish": "npm run -s clean && npm run -s build"
+    "prepublishOnly": "npm run -s clean && npm run -s build"
   },
   "keywords": [],
   "author": "",
