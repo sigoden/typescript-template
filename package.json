@@ -4,14 +4,19 @@
   "description": "",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Sigoden Hwang <sigoden@gmail.com>",
+  "homepage": "https://github.com/sigoden/typescript-template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sigoden/typescript-template.git"
+  },
   "files": [
     "dist"
   ],
   "publishConfig": {
     "access": "public"
-  },
-  "directories": {
-    "test": "tests"
   },
   "scripts": {
     "lint": "eslint .",
@@ -20,9 +25,6 @@
     "clean": "rimraf dist",
     "prepublishOnly": "npm run -s clean && npm run -s build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^27.0.3",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
